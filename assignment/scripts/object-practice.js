@@ -48,7 +48,7 @@ console.log('Last favorite food: ', me.favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 console.log('Starting shoe count: ', me.shoeCount);
-me.shoeCount == me.shoeCount++; // adding a pair of shoes
+me.shoeCount = me.shoeCount + 1; // adding a pair of shoes
 console.log('Added a pair of shoes: ', me.shoeCount); 
 
 /* 5. Add a new property to an existing object.
@@ -57,3 +57,7 @@ console.log('Added a pair of shoes: ', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+// Adding favorite color
+me.favoriteColor = 'none';
+console.log('My favorite color is: ', me.favoriteColor);
