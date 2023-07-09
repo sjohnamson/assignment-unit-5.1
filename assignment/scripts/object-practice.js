@@ -26,7 +26,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
- 
+
 let fullName = `${me.firstName} ${me.lastName}`;
 
 console.log(`My full name is: ${fullName}`);
@@ -37,7 +37,7 @@ console.log(`My full name is: ${fullName}`);
   - Console.log your last favorite food 
 */
 console.log('First favorite food: ', me.favThreeFoods[0]);
-console.log('Last favorite food: ', me.favThreeFoods[2]);
+console.log('Last favorite food: ', me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 
 
@@ -49,7 +49,7 @@ console.log('Last favorite food: ', me.favThreeFoods[2]);
 */
 console.log('Starting shoe count: ', me.shoeCount);
 me.shoeCount = me.shoeCount + 1; // adding a pair of shoes
-console.log('Added a pair of shoes: ', me.shoeCount); 
+console.log('Added a pair of shoes: ', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
